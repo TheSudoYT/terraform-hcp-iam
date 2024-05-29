@@ -1,0 +1,24 @@
+Vault-Admin:
+  users:
+    - joshua.tracy@hashicorp.com
+Vault-Writer:
+  users:
+    - joshua.tracy@hashicorp.com
+Vault-Reader:
+  users:
+    - joshua.tracy@hashicorp.com
+Vault-Secrets-Admin:
+  users:
+    - joshua.tracy@hashicorp.com
+Vault-Secrets-Writer:
+  users:
+    - joshua.tracy@hashicorp.com
+Vault-Secrets-Reader :
+  users:
+    - joshua.tracy@hashicorp.com
+Vault-Secrets-Salesforce-App-Write:
+  users:
+    - joshua.tracy@hashicorp.com
+Vault-Secrets-ADP-App-Read :
+  users:
+    - joshua.tracy@hashicorp.com
