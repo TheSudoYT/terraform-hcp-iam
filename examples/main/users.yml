@@ -1,24 +1,27 @@
 Vault-Admin:
   users:
-    - joshua.tracy@hashicorp.com
+    - user1@example.com
 Vault-Writer:
   users:
-    - joshua.tracy@hashicorp.com
+    - user1@example.com
 Vault-Reader:
   users:
-    - joshua.tracy@hashicorp.com
+    - user1@example.com
+    - user2@example.com
 Vault-Secrets-Admin:
   users:
-    - joshua.tracy@hashicorp.com
+    - user1@example.com
+    - user2@example.com
 Vault-Secrets-Writer:
   users:
-    - joshua.tracy@hashicorp.com
+     - user1@example.com
 Vault-Secrets-Reader :
   users:
-    - joshua.tracy@hashicorp.com
+    - user1@example.com
 Vault-Secrets-Salesforce-App-Write:
   users:
-    - joshua.tracy@hashicorp.com
+     - user1@example.com
 Vault-Secrets-ADP-App-Read :
   users:
-    - joshua.tracy@hashicorp.com
+    - user1@example.com
+    - user2@example.com

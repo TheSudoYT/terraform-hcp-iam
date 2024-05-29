@@ -1,12 +1,12 @@
 locals {
-  vault_project_id         = "cf824d68-a478-4ff4-bb48-f978ee069974"
-  vault_secrets_project_id = "0ee70abf-a3ca-45c4-928e-d75339990dab"
+  vault_project_id         = "1234"
+  vault_secrets_project_id = "1234"
 }
 
 module "iam" {
   source = "../../"
 
-  organization_id           = "dae80db0-ad81-4b9d-ab63-1d76dd498d5e"
+  organization_id           = "1234"
   users_to_groups_yaml_path = "users.yml"
 
   groups = {
