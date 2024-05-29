@@ -1,5 +1,5 @@
 variable "groups" {
-  description = "A map of groups with display_name and description"
+  description = "A map of groups to create in HCP IAM. Each group should have a display_name, description, project_id, and role."
   type = map(object({
     display_name = string
     description  = string
@@ -9,7 +9,7 @@ variable "groups" {
 }
 
 variable "users_to_groups_yaml_path" {
-  description = "YAML content mapping user emails to group names"
+  description = "Path to YAML file with mapping of user emails to group names"
   type        = string
 }
 

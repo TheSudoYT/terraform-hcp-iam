@@ -44,7 +44,3 @@ resource "hcp_project_iam_binding" "project_binding" {
   principal_id = hcp_group.group[each.key].resource_id
   role         = each.value.role
 }
-
-output "yaml" {
-  value = local.users_to_groups_yaml
-}
